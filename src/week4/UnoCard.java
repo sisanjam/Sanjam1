@@ -10,10 +10,6 @@ public class UnoCard {
 		return this.value;
 	}
 
-	/**
-	 * 
-	 * @param value
-	 */
 	public void setValue(int value) {
 		this.value = value;
 	}
@@ -22,10 +18,7 @@ public class UnoCard {
 		return this.colors;
 	}
 
-	/**
-	 * 
-	 * @param colors
-	 */
+
 	public void setColors(String colors) {
 		this.colors = colors;
 	}
@@ -35,10 +28,7 @@ public class UnoCard {
 		throw new UnsupportedOperationException();
 	}
 
-	/**
-	 * 
-	 * @param attribute
-	 */
+	
 	public void setAttribute(int attribute) {
 		this.attribute = attribute;
 	}
